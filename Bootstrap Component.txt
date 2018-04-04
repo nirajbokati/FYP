@@ -1,0 +1,22 @@
+Components
+1. bootsnipp.com
+2. codepen.io
+3. mdbootstrap.com
+4. https://www.bootply.com/
+5. https://bootswatch.com/
+6. https://startbootstrap.com/
+7. https://bootstrapthemes.co/items/free-bootstrap-templates/
+
+
+
+For scrolling effects
+7. http://mynameismatthieu.com/WOW/
+8. https://daneden.github.io/animate.css/
+9. 
+
+For fantastic slider:
+10. http://wowslider.com/
+
+
+hover effects
+11. http://gudh.github.io/ihover/dist/

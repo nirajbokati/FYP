@@ -1,0 +1,22 @@
+https://codepen.io/rimager/pen/vAHgd
+
+Similar Projects: https://github.com/search?l=JavaScript&q=%24%28function+%28%29+%7B+++var+ran+%3D+Math.floor%28Math.random%28%29+%2A+cars.length%29%3B&type=Code&utf8=%E2%9C%93
+
+
+
+https://github.com/search?q=ai-car-master&type=Wikis&utf8=%E2%9C%93
+
+
+https://samanimkr.github.io/#repos
+
+https://www.youtube.com/watch?v=xcQrAXL5lvk
+
+http://blog.niandrei.com/2015/03/01/javascript-artificial-intelligence-tutorial-for-beginners/
+
+https://jsfiddle.net/niandrei/6gn7m7uu/33/?utm_source=website&utm_medium=embed&utm_campaign=6gn7m7uu
+
+https://www.tensorflow.org/
+
+
+
+Office Navbar: https://codepen.io/riogrande/pen/MKXweV 

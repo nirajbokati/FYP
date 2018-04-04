@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+    
+          <meta charset="utf-8">
+
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+		<title> Biography of Brett Lee  </title>
+	   
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  
+
+<style>
+
+overflow
+  main: auto;
+}
+
+/*--This property is used for form---*/
+
+#form{
+  width: 600px;
+  border: 50px solid #DDDDDD;
+  margin: 20px 0px 20px 1000px;
+  background-color:black;
+
+  }
+
+ /*---------This property is used to give style to reset and submit button-----*/
+
+#reset, #submit {
+    font-size: 1.143em;
+    height: 40px;
+    width: auto;  
+    padding: 0px 10px 0px 10px;
+    color:  white;
+    background-color: #005DB4; 
+    border: 2px solid #005DB4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+}
+td, tr{
+  padding: 10px;
+}
+</style>
+
+
+</head>
+
+
+<body>
+
+  <div id="big_wrapper">
+
+     <!--This is the header of the webpage which includes logo and navigation bar-->
+
+     <header class="main_header">
+
+        <figure id="logo">
+
+          <img src="../images/logo.png" alt="Website Logo">
+
+        </figure>
+
+        <!--Starting of Navigation bar-->
+
+        <nav>
+
+          <ul>
+
+                     <li> <a href="../index.html"> Home </a></li>
+
+                     <li> <a href="lifestyle.html"> Lifestyle </a></li>
+
+                     <li> <a href="career.html"> Career </a></li>
+
+                     <li> <a href="achievement.html"> Achievements </a></li>
+
+                     <li> <a class="active" href="contact.html" > Contact </a></li>
+
+               </ul>
+
+          </nav>
+</header>
+        
+            <section  class="slider">
+
+                <figure> 
+
+            <img id="slider" src="../images/slider/1.jpg" name="slide">
+
+                </figure>
+
+            </section>
+         
+          <!--End of slider-->
+
+            <h2>Contact Us</h2>
+
+          <main style="width:500px;height:450px;">  
+
+              <article>
+                        <!-- This is the contact form -->
+
+                        <form id="form" action="#" method="POST">
+
+                            <!-- Table starts -->
+                            <table>
+                                <tr>
+                                    <td>Name: </td>
+                                    <td><input type="text" name="name" id="name" onfocus="changeColor(this)" /></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Phone: </td>
+                                    <td><input type="text" name="number" id="number" onfocus="changeColor(this)"/></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Email: </td>
+                                    <td><input type="email" name="email" id="email" onfocus="changeColor(this)"/></td>
+                                </tr>
+                                <tr>
+
+                                    <td>Address: </td>
+                                    <td><input type="text" name="address" id="address" onfocus="changeColor(this)"/></td>
+                                </tr>
+                                <tr>
+
+                                    <td> Comment:</td>
+                                    <td>
+                                        <textarea name="message" id="message" rows="8" cols="70" onfocus="changeColor(this)"></textarea>
+                                    </td>
+                                </tr>
+                                <td></td>
+
+                                    <td><input type="reset" name="reset" id="reset"/>
+                                        <input type="submit" name="submit" id="submit" value="Submit" onclick="validateForm()"/>
+                                    </td>
+                                </tr>
+
+                            </table>
+                            <!-- Table ends -->
+                        </form>
+                        <!-- Form ends -->
+              </article>
+
+			  Date: <span id="date" style="color:black;"></span>
+            
+            <!-- This is social icons of the webpage which contains image map -->
+            <section class="social">
+
+                <img src="../images/social.jpg" width="100" height="50" float="right" alt="Planets" usemap="#social_map">
+
+                <map name="social_map">
+
+                    <area shape="rect" coords="5, 5, 78, 82" alt="facebook" target="_blank" href="https://www.facebook.com/pages/Brett-Lee/287408687971368" 
+                    onmouseover="writeText('Please, click the button to follow our updates in facebook.')"/>
+
+                    <area shape="rect" coords="93, 5, 166, 82" alt="twitter" target="_blank" href="https://twitter.com/brettlee_58" onmouseover="writeText('Receive latest tweets from Lee by following his twitter page.')"/>
+
+                    <area shape="rect" coords="181, 5, 254, 82" alt="google" target="_blank" href="http://www.brett-lee.net/wp/contact/"onmouseover="writeText('Please, check this page to receive more updates.')"/>
+
+                </map>
+
+                 <p id="social_message"></p> 
+
+            </section>
+
+            </main>
+
+
+
+<!--From here the footer of this page beings-->
+
+  <footer id="main_footer"> 
+  
+      <ul>
+          <li> <a href="../index.html"> Home </a>| </li>
+
+          <li> <a href="lifestyle.html"> Lifestyle </a>|</li>
+
+          <li> <a href="career.html"> Career </a>| </li>
+
+          <li> <a href="achievement.html"> Achievements </a> |</li>
+
+          <li> <a href="contact.html"> Contacts </a> |</li>
+
+
+      </ul>
+
+              <p id="copy_right">
+
+               Designed by Niraj Bokati, © 2016 All Rights Reserved.
+             
+              </p>
+
+  </footer>
+
+<!--End of the main footer-->
+
+</div>
+      <script src="../js/script.js"></script>
+
+<script type="text/javascript">
+
+show_date();
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+

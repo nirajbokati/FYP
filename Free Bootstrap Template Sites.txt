@@ -1,0 +1,50 @@
+01. uiCookies
+
+02. HTML5 UP
+
+03. ShapeBootstrap
+
+05. w3layouts.com
+
+06, Black Tie
+
+07. WebThemez
+
+08. FREEHTML5.co
+
+09. Templated
+
+10. Themefisher
+
+Templates: 
+1. GrayGrids | HTML5 & Bootstrap Themes and Resources
+2. Black Tie – Free Handsome Bootstrap Themes
+3. ShapeBootstrap
+
+Snippets:
+1. HTML Snippets for Twitter Boostrap framework : Bootsnipp.com
+2. Bootply - The Bootstrap Playground
+
+Free or partially free:
+
+StartBootstrap - A collection of free Bootstrap themes and templates. Open source (MIT License).
+
+HackerThemes - Free Bootstrap 4 themes with a fancy code picker and color switcher. Open source (MIT License).
+
+BootstrapZero - Over 90 free Bootstrap Themes.
+
+BootBundle - A package of Bootstrap themes, snippets and other components in a single download.
+
+BlackTie - Great looking themes most of which are also included in BootBundle mentioned above.
+
+BootstrapDash - Responsive admin templates built with Bootstrap 3 and latest version Bootstrap 4 beta.
+
+
+Here are the list of websites from which you can download free themes
+
+Startbootstrap.com
+colorlib.com
+Bootstrapmade.com
+Themewagon.com
+Mobirise.com
+

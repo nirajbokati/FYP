@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+
+h2{
+  font-size: 22px;
+  color: #EEEEEE;
+  text-shadow: 0 1px 0 white;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  background-color: #444444;
+  padding: 5px;  
+  opacity: 0.6;
+  margin:0px 0px 0px 0px;
+}
+
+.fade{
+color:red;
+}
+   nav ul li a{
+    font-size: 10px;
+    color:#45c3d2;
+  } 
+  body{                                     
+    font-family:  Arial,sans-serif;
+    font-size: 14px;
+    width:100%;
+  }
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%;
+  }
+  .dash{
+    border: 0 none;
+    border-top: 1px dashed #CCCCCC;
+    background: none;
+    height:0;
+  }  
+  p.caption, p { 
+    display: block !important; 
+    position: relative !important;
+    text-align: justify;
+    text-shadow: 0 1px 0 white;
+  }
+
+  p.caption img { 
+    position: absolute !important
+  }
+  p.caption span { 
+    background: #000; 
+    background: rgba(0,0,0,0.8); 
+    color: white !important; 
+    display: none; 
+    padding: 5px 10px !important; 
+    text-align: center; 
+    position: absolute !important;
+    bottom: 0 !important; 
+    left: 0 !important; 
+  }
+  p.caption span big {
+    font-weight: bold; 
+  }
+  .imgcontain1{
+    background-image: url("img/pic17.jpg");
+    height: 200px;
+    text-align: center;
+
+
+  </style>
+</head>  
+
+<body class="container-fluid">
+  <div class="row" >
+    <div class="col-lg-4 col-lg-offset-2">
+      <p style="color:#45c3d2;  font-size:12px;"> Bal: +62 812 39316422 | Australia: +612 8011 4559 </p>
+    </div>
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4 ">
+      <ul class="nav navbar-nav navbar-right" >
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span > Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class=" row col-lg-12">
+    <hr style="min-width:100%; background-color:black !important;"/>
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-2 col-lg-offset-1">
+
+      <img src="img/logo.jpg" style="width:80px; height:70px;"> 
+    </div>
+
+
+    <div class="col-lg-9">
+      <nav>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="home.html">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="retreats.html"> RETREATS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+            </ul>
+          </li>
+          <li><a href="ourphilosopy.html">OUR PHILOSOPY</a></li>
+          <li><a href="fag.html">fAG</a></li>
+          <li><a href="contact.html"> CONTACT</a></li>
+          <li><a href="myaccount.html">MY ACCOUNT</a></li>
+          <li><a href="blog.htm">BLOG</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div  class="item active">
+          <img src="img/pic1.jpg">
+          <div class="carousel-caption">
+          <h2 class="gdlr-page-title">Aus Adventure Health Retreat</h2>
+          <p class="fade">WOMAN ONLY RETREATS.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/pic2.jpg">
+          <div class="carousel-caption">
+          <h2>PAYMENT PLANS ONLY AVAILABLE</h2>
+          <p class="fade">FROM A LITTLE $9 per week.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/pic3.jpg">
+          <div class="carousel-caption">
+            <h2>DONT MISS OUR NEXT GENERATION </h2>
+            <p class="fade">RECONNECTS RETREATS AND BALI.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/pic4.jpg">
+          <div class="carousel-caption">
+           <h2>LOVE ADVATURES</h2>
+           <p class="fade">EXPLORE BEYOND LIMITS.</p>
+         </div>
+       </div>
+     </div>
+
+     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="row" style="margin-top:20px;">
+  <div class="col-lg-8 col-lg-offset-1">
+    <h3>ESCAPE IN PARADISE AND ENJOY A LUXURY BALI HEALTH RETREAT</h3>
+    <p>
+      Indulge in an individually tailored Bali Health Retreat to improve your health and wellness. We provide you the tools, education and ongoing support to continue a healthier lifestyle once you return home. Whether its health, fitness, adventure, nutrition, relaxation or stress reduction our retreats are perfectly packaged to ensure you return home feeling refreshed, revitalised and reconnected to your body, mind and soul. Please also check out IN2U adventure retreats in Australia HERE.
+    </p>
+    <h3>IN2U: WE AIM TO EXCEED YOUR EXPECTATIONS IN EVERY WAY</h3>
+    <p>Treat yourself to a week of luxury indulgence in paradise, supported by leading industry experts who will educate you on how to improve your body and life in order to thrive. Enjoy daily yoga, meditation, surf, training, delicious nutritious meals and educational workshops whilst forming new friendships with like-minded people from all over the world. All of our health retreat locations are set amongst the most beautiful tropical settings in the world where our staff will ensure that your every desire is met. We aim to exceed your expectations in every way so that you are 100% focused on reconnecting and relaxing for an ultimate retreat experience.</p>
+  </div>
+  <div class="col-lg-2" >
+    <img src="img/mobile.jpg" style="height:300px; width:220px">
+    <button type="button" class="btn btn-info" style="margin-left:50px;"><h4> Download </h4></button>
+
+  </div>
+</div>
+<hr class="dash">
+<div style="text-align:center"> <h2> Retreats </h2> </div>
+<div style="text-align:center"> <h4 style="color:#45c3d2"> See all retreats >> </h4> </div>
+
+<div class="row">
+  <div class="col-lg-2 col-lg-offset-2">  
+    <img src="img/pic1.jpg" class="img-thumbnail" style="width:100%; height:250px">
+    <div style="background-color:#ffffff;" class="w3-container w3-white">
+     <p class="w3-opacity"><kbd>  sun 4 sep 2016 </kbd></p>
+     <p style="background-color:#ffffff; color:#45c3d2; font-family:italic; padding: 5px" class="bg-success">   Fashion says "me too" but style says "only me", so Be-yourself, Be-Original</p>
+   </div>
+ </div>
+
+ <div class="col-lg-2 ">  
+  <img src="img/pic2.jpg" class="img-thumbnail" style="width:100%; height:250px">
+  <div style="background-color:#ffffff;" class="w3-container w3-white">
+   <p class="w3-opacity"><kbd>  sun 4 sep 2016 </kbd></p>
+   <p style="background-color:#ffffff; color:#45c3d2; font-family:italic; padding: 5px" class="bg-success">   Fashion says "me too" but style says "only me", so Be-yourself, Be-Original</p>
+ </div>
+</div>
+<div class="col-lg-2 ">  
+  <img src="img/pic3.jpg" class="img-thumbnail" style="width:100%; height:250px">
+  <div style="background-color:#ffffff;" class="w3-container w3-white">
+   <p class="w3-opacity"><kbd>  sun 4 sep 2016 </kbd></p>
+   <p style="background-color:#ffffff; color:#45c3d2; font-family:italic; padding: 5px" class="bg-success">   Fashion says "me too" but style says "only me", so Be-yourself, Be-Original</p>
+ </div>
+</div>
+<div class="col-lg-2 ">  
+  <img src="img/pic4.jpg" class="img-thumbnail" style="width:100%; height:250px">
+  <div style="background-color:#ffffff;" class="w3-container w3-white">
+   <p class="w3-opacity"><kbd>  sun 4 sep 2016 </kbd></p>
+   <p style="background-color:#ffffff; color:#45c3d2; font-family:italic; padding: 5px" class="bg-success">   Fashion says "me too" but style says "only me", so Be-yourself, Be-Original</p>
+ </div>
+</div>
+</div>
+<hr class="dash">
+
+
+<div class="imgcontain1">
+ <div class="w3-display-left w3-padding-xlarge" >
+  <h1 class="w3-text-white" style="color:#fff; padding-top:80px;"> MY ACCOUNT </h1>
+
+</div>
+</div>
+<br>
+<hr class="dash">
+<div class="row col-lg-10 col-lg-offset-1">
+  <h4 style="color:#45c3d2"> RETREATS IN BALI | IN2U HEALTH & WELLNESS | MORE INFO </h4>
+  <h3> Holistic Sustainable Approach</h3>
+  <p>N2U health and wellness retreats in both Bali and Australia are designed to enable you to have a 7 day escape in paradise, whilst learning the latest tools, techniques and methods to become your healthiest, happiest self. We are dedicated to sustainable, healthy lifestyle change. Everything we do throughout the week is to set you up for success once you return home. We are not a detox or weight loss retreat, we do not promote extreme measures that are not sustainable, however by adopting the approach your coaches will teach you, weight loss, stress reduction and natural detoxification will be experienced.</p>
+
+  <h3>Expert Coaching</h3>
+  <p>Our expert coaches work to tailor our group sessions based on the health history you provide, they will give you expert one on one advice throughout the seven day retreat and tools to improve your individual lifestyle, exercise routine, nutrition and mind-set. We are 100% focused on helping you become the best version of yourself.
+  </p>
+  <h3>Required fitness level</h3>
+  <p>We understand that sometimes retreats can be daunting. We can guarantee you that whether you’ve never exercised in your life or a complete gym junky, our timetable is built to suit your ability and our coaches are industry leaders trained to facilitate group sessions that cater for all levels. We are here to encourage you to improve your life not to train you or push you to your limit.
+  </p>
+</div>
+</body>
+</html>

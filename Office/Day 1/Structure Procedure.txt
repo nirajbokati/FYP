@@ -1,0 +1,40 @@
+insert into tbl_student (name, semester, faculty, roll_no) values('Abinash', 8, 'Networrking', 5 );
+
+update tbl_student set name='Abinash'  where student_id=2 
+select * from tbl_student
+
+delete tbl_student where student_id=4
+
+
+create proc tbl_student_insert 
+@name nvarchar(50), 
+@semester nvarchar(50), 
+@faculty nvarchar(50),
+@roll_no int
+as 
+insert into tbl_student (name, semester, faculty, roll_no) values(@name, @semester, @faculty, @roll_no)
+
+create proc tbl_student_update
+@student_id int,
+@name nvarchar(50),
+@semester nvarchar(50),
+@faculty nvarchar(50),
+@roll_no int
+as
+update tbl_student  set name=@name, semester=@semester, faculty=@faculty, roll_no=@roll_no where student_id=@student_id
+
+create proc tbl_student_delete
+@student_id int
+as
+delete tbl_student where student_id=@student_id
+
+create proc tbl_student_select
+as
+
+
+select * from tbl_student 
+
+
+create proc tbl_student_name2
+as
+select name from tbl_student   

@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+    <title> Biography of Brett Lee - Home </title>
+     
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+   <style>
+
+ /* This sets property to home page */
+
+  #home{
+   margin: 0px 15px 0px 0px;
+   overflow: auto;
+}
+
+#info{
+  width:40%;
+  padding: 10px 5px 5px 5px;
+  float: left;
+ }
+
+  #intro{
+    float: left;
+    width: 45%;
+    margin: 0px 0px 0px 50px;
+    text-indent: 25px;
+    text-align: justify;
+    padding: 5px 10px 10px 5px;
+    line-height:22px;
+  }
+
+/*These properties were used to make home page responsive*/
+
+@media screen and (max-width:720px) {
+  #nfo, #intro{
+  font-size: 13px;
+  width: 90%;
+  padding: 0px;
+  margin: 10px;
+}
+
+@media screen and (max-width:420px) {
+  #intro, #info{
+  font-size: 11px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+h2{
+  line-height: 15px;
+  font-size: 12px;
+}
+
+</style>
+         
+</head>
+
+  <body>
+
+   <!-- This is the big_wrapper of the home page -->
+
+    <div id="big_wrapper">
+
+     <!--This is the header of the webpage which includes logo and navigation bar-->
+
+     <header class="main_header">
+
+          <figure id="logo">
+
+          <img src="images/logo.png" alt="Website Logo">
+
+          </figure>
+
+          <!--Starting of Navigation bar-->
+
+          <nav>
+
+               <ul>
+
+                     <li> <a class="active" href="index.html"> Home </a> </li>
+
+                     <li> <a  href="pages/lifestyle.html"> Lifestyle </a></li>
+
+                     <li> <a href="pages/career.html"> Career </a> </li>
+
+                     <li> <a href="pages/achievement.html"> Achievements </a></li>
+
+                     <li> <a href="pages/contact.html"> Contact </a>  </li>
+
+               </ul>
+
+          </nav>
+
+      </header>
+
+           <!--This is the image slider of home page-->
+
+       <section style="border: 5px solid #FFFFFF" class="slider">
+
+                <figure>  
+
+                    <img id="slider" src="images/slider/1.jpg" name="slide">
+
+                </figure>
+      </section>
+
+      
+      <!--The main content of the home page begins from here.-->
+
+
+<h2>Personal Information </h2>
+
+ <!-- This is the section which is standalone content of web page -->
+
+        <section id="home">
+
+           <article id="info">
+
+ <pre>
+ <strong>Born:</strong>          <em>8th November 1976 </em>
+ <strong>Nickname: </strong>     <em>Binga    </em>
+ <strong>Birthplace:</strong>    <em>New South Wales, Australia   </em>     
+ <strong>Age: </strong>          <em>39 year  </em>
+ <strong>Height:</strong>        <em>1.85 m </em>
+ <strong>Batting style:</strong> <em>Right-handed </em>
+ <strong>Bowling style:</strong> <em>Right-arm fast </em>
+ <strong>Main Role: </strong>    <em>Bowler </em>
+ <strong>Relations:</strong>     <em>Shane Lee (brother) </em>
+ <strong>Movie:  </strong>       <em>UnIndian </em>
+ <strong>Music Band:</strong>    <em>Six and Out </em>
+
+ </pre>
+    
+         </article>
+
+          <p id="intro"> 
+
+             Brett Lee is an Australian cricketer and a Channel Nine cricket commentator. He is known as one of the fastest and most exciting pace bowlers. He was also known as an athletic fielder and useful lower-order batsman. He had played 10 year for Australia incluing each format of game. His contribution for Australian cricket was worth. He was one of the legendary cricketer and exciting playing to watch.
+
+         </p>
+
+     </section>
+
+  <!--This is the main footer of the website-->
+
+  <footer id="main_footer"> 
+  
+      <ul>
+          <li> <a href="index.html"> Home </a>| </li>
+
+          <li> <a href="pages/lifestyle.html"> Lifestyle </a> | </li>
+
+          <li> <a href="pages/career.html"> Career </a> | </li>
+
+          <li> <a href="pages/achievement.html"> Achievements </a> | </li>
+
+          <li> <a href="pages/contact.html"> Contacts </a> |</li>
+
+       </ul>
+
+      <p id="copy_right">
+
+       Designed by Niraj Bokati, © 2016 All Rights Reserved.
+             
+      </p>
+
+ </footer>
+
+<!--End of the main footer-->
+           
+      </div>
+      <script>
+        var page = "home";
+      </script>
+      <script src="js/script.js"></script>
+
+   </body>
+
+</html>

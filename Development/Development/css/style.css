@@ -1,0 +1,280 @@
+
+/*-----This property is to correct default settings---*/
+
+*{
+    margin: 0px;
+	padding: 0px;
+}
+
+/*------The Properties of body beings here------*/
+
+body{                                     
+	font-family:  Arial,sans-serif;
+	font-size: 14px;
+	width:100%;
+	background-color: #CCCCCC;}
+
+/*---------The properties of Big_wrapper beings-------*/
+
+#big_wrapper{                         
+	max-width: 1000px;
+	background-color: #EEEEEE;
+	-webkit-box-shadow: #BBBBBB 5px;
+	-webkit-border-radius:5px; 
+	margin: 0 auto;
+}
+
+/*-------This is the main header of all pages-----*/
+
+.main_header{
+	background-color: #CCCCCC;
+}
+
+/*------This property sets value to navigation bar---*/
+
+nav{
+	margin: 10px 0px 0px 0px;            
+	height:40px;
+	background: #990033;
+	overflow: hidden;
+	-webkit-border-radius:5px; 
+	-webkit-box-shadow:grey 0px 5px 5px 0px;  
+	 width: 100%; 
+}
+
+/*----This property removes bullet points of navigation bar---*/
+
+nav ul li{                                 
+	list-style-type: none;
+}
+
+/*This property sets  values to navigation bar links*/
+nav ul li a{                              
+	text-decoration: none;
+	float:left;
+	display:inline-block;
+	padding: 12px 63px 10px 63px;
+	color:white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-family: Sans-serif;
+
+}
+	
+/*  The link color is changed to hover*/
+
+ nav ul li a:hover:not(.active)
+ {
+ 	color: #FFF;
+ 	background-color: #323232;
+
+}
+
+/*---This property is used to make link active now----*/
+
+ .active {
+    background-color: black;
+    color:white;
+}
+
+ /*--- This property is to slide the image of which is exact below navingation bars in each pages---*/
+
+ .slider{
+ border: 5px solid #FFFFFF;
+ -webkit-border-radius:5px; 
+-webkit-box-shadow:#BBBBBB 0px 5px 5px 0px;
+ }
+/*--These properties are used to style the slider--*/
+
+#slider{       
+    -webkit-border-radius: 10px 10px 10px 10px; 
+	-webkit-box-shadow:#767676 0px 5px 5px;
+	margin: 10px 0px 10px 50px;
+	width: 90%;
+	height:245px;
+	background-color: #CCCCCC;
+}
+
+/* In each pages if heading 2 exists, this property sets the values*/
+
+h2{                                     
+  font-size: 22px;
+  color: #DDDDDD;
+  text-shadow: 0 1px 0 white;
+  font-weight: bold;
+  width: auto;
+  margin: auto;
+  text-align: center;
+  background-color: #333333;
+  text-transform: uppercase;
+  height: 100%;
+  padding: 5px;
+}
+
+/*--------- The properties of footer begins these properties enhanace for footer---*/
+
+#main_footer{
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+    height:20px;
+	width: auto;
+	text-decoration: none;
+	background-color:#DDDDDD;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	 border: 2px solid #BBBBBB;
+	-webkit-box-shadow: 0 0 5px #888;
+}
+
+/*This is another property for unordered list of the footer*/
+
+#main_footer ul{
+	list-style-type: none;
+	margin: auto;
+}
+/* This  property sets unondered list items of the footer*/
+
+#main_footer ul li{
+	float: left;
+	display: inline;
+	padding: 0px 10px 5px 20px;
+}
+#main_footer ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	color: #9999;
+    text-shadow: 0 1px 0 white;
+}
+
+#main_footer ul li a:hover
+{
+	font-size: 13px;
+	color: #990033;
+
+}
+	
+#copy_right{
+	float: right;
+	color: #000000;
+	font-size: 12px;
+}
+
+/*---------End Of Footer--------------*/
+
+
+
+/* TO make navigation bar responsive, The properties begines here*/
+
+@media screen and (max-width:950px) {
+
+	nav{width: 100%;
+		
+	}
+
+	nav ul li a{
+	padding: 0px 20px;
+	text-align: left;
+    line-height: 40px;
+    text-align: left;
+    }
+
+}
+@media screen and (max-width:720px) {
+
+	nav{
+	 width: 100%;
+	 }
+
+nav ul li a{                              /*This property sets  values to navigation bar links*/
+	text-align: left;
+    line-height: 40px;
+	font-size: 8px;
+	margin: 0px 0px 0px 0px;
+}
+
+}
+@media screen and (max-width:420px) {
+
+	nav{
+	 width: 100%; 
+	 height: 100px;
+	 margin-top: 30px;
+}
+
+nav ul li a{                              /*This property sets  values to navigation bar links*/
+	float:none;
+	display:block;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+}
+
+@media screen and (max-width:720px) {
+	#slider{
+		margin: 0px;
+	}
+
+/*THis property is used to make footer responsive if the window is 950 px wide*/
+
+@media screen and (max-width:720px) {
+
+	#main_footer{
+	margin:150px 0px 50px 0px;
+	padding: 5px;
+    height:110px;
+	width: 100%;
+	
+}
+
+ #main_footer ul li{
+	float: none;
+	display: block;
+	padding: 0px 10px 5px 20px;
+	text-align: center;
+
+}
+	#main_footer ul li a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 10px;
+	color: #9999;
+    text-shadow: 0 1px 0 white;
+}
+
+#main_footer ul li a:hover
+{
+	font-size: 13px;
+
+}
+	
+#copy_right{
+	float: none;
+	font-size: 8px;
+	text-align: center;
+}
+
+
+
+/**************ENd of style page *********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

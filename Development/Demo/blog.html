@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> My Website</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+    /*Main style*/
+    .list-quotes {
+      cursor: pointer;
+      height: auto;
+      margin-bottom: 30px;
+      overflow: hidden;
+      position: relative;
+      display: block;
+      border-bottom: 1px solid blue;
+    }
+    .list-quotes img,
+    .list-quotes h1 {
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s;
+    }
+    .list-quotes img {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .list-quotes h1{
+      background: rgba(20,31,44,0.8);
+      bottom: 30px;
+      float: right;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 15px;
+      position: absolute;
+      margin: 0;
+    }
+
+    .list-quotes p {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 10px;
+      opacity: 0;
+      transition: opacity 0.35s, transform 0.35s;
+      transform: translate3d(0,50px,0);
+      font-size: 15px;
+      font-weight: normal;
+      background: rgba(51,153,153,0.8);
+      width: 100%;
+      color: #fff;
+    }
+    .list-quotes:hover img {
+      transform: scale(1.2);
+      transition: all 250ms ease;
+    }
+    .list-quotes:hover{
+      box-shadow: 0 0 5px 2px rgba(51,153,153, 0.5);
+    }
+    .list-quotes:hover h1 {
+      transform: translate3d(0,-100px,0);
+      text-shadow: 0px 0 15px #fff;
+      transition: all 250ms ease;
+    }
+    .list-quotes:hover p {
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+    .quotes span{
+      color:#222;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: #fff;
+    }
+  </style>
+  <script>
+ new WOW().init();
+</script>
+</head>
+<body>
+ <header id="header">
+    <div class="top-bar">
+      <div class="row">
+        <div class="col-sm-6 col-xs-4">
+          <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+        </div>
+        <div class="col-sm-6 col-xs-8">
+         <div class="social">
+          <ul class="social-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+          </ul>
+          <div class="search">
+            <form role="form">
+              <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+              <i class="fa fa-search"></i>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!--/.top-bar-->
+
+  <nav class="navbar navbar-inverse" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li> 
+          <li class="dropdown">
+            <a href="contact.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"  data-animations="fadeInUp" role="button" aria-haspopup="true" aria-expanded="false"> Contact Us <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Phone</a></li>
+              <li><a href="#">Landline</a></li>
+              <li><a href="#">Office</a></li>
+            </ul>
+          </li>                        
+        </ul>
+      </div>
+    </div><!--/.container-->
+  </nav><!--/nav-->
+
+</header><!--/header-->
+
+
+
+<div class="row" style="background-color:#393f43; color:#67c29e;  height:100%;">
+  <h2 class="text-center"> LIFE IS A RACE </h2>
+  <div class="col-lg-5 col-lg-offset-1">
+   <p style="color:#cccccc; letter-spacing:2px; font-size:12px; margin-top:60px; text-align:justify; line-height:26px;" class="img-circle wow fadeInLeft"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+  </div>
+
+  <div class="col-lg-3 col-lg-offset-1">
+   <img src="img/bike.png" class="img-circle wow fadeInRight" style="height:300px;">
+  </div>
+</div>
+
+    <div class="row" style="background-color:#f4f4f4">
+      <div class="col-lg-3 col-sm-6 col-md-3 col-lg-offset-2">
+        <a class="list-quotes" href="/">
+          <img class='img-responsive' alt="img" src="img/50.jpg">
+          <div class="quotes">
+            <h1> Details</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>...Read More</span>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-3 ">
+        <a class="list-quotes" href="/">
+       <img class='img-responsive' alt="img" src="img/51.jpg">
+          <div class="quotes">
+            <h1 style="text-align:center;"> Details</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>...Read More</span>
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-md-3 ">
+        <a class="list-quotes" href="/">
+          <img class='img-responsive' alt="img" src="img/52.jpg">
+          <div class="quotes">
+            <h1> Details </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>...Read More</span>
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Dropdown Hover JS -->
+    <script src="js/bootstrap-dropdownhover.min.js"></script>
+  </body>
+  </html>

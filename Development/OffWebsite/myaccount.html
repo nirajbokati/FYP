@@ -1,0 +1,207 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
+
+    <style>
+      body{
+        background-image: #C0C0C0;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+        background-color: none;
+      }
+      p{font-size: 14px;
+        text-align: justify;
+      }
+      nav ul li a{
+        font-size: 10px;
+        color:#45c3d2;
+      }
+      .container{
+        background-color: #F5F5F5;
+        width:800px;
+      }
+
+      img{
+        width: 70px;
+
+      }
+
+      hr{
+       border: 1px solid dotted  #ccc ;
+
+     } 
+     .glyphicon-plus{
+      color:#45c3d2;
+    }
+    .imgcontain1{
+      background-image: url("img/pic108.jpg");
+      height: 200px;
+      text-align: center;
+
+    }
+
+  </style>
+
+  <body class="container-fluid">
+    <div class="row" >
+      <div class="col-lg-4 col-lg-offset-2">
+        <p style="color:#45c3d2;  font-size:12px;"> Bali: +62 812 39316422 | Australia: +612 8011 4559 </p>
+      </div>
+      <div class="col-lg-4">
+      </div>
+      <div class="col-lg-4 ">
+        <ul class="nav navbar-nav navbar-right" >
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span > Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class=" row col-lg-12">
+      <hr style="min-width:100%; background-color:black !important;"/>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-2 col-lg-offset-1">
+
+  <img src="img/logo.jpg" style="width:80px; height:70px;"> 
+     </div>
+
+
+     <div class="col-lg-9">
+      <nav>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="home.html">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="retreats.html"> RETREATS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+            </ul>
+          </li>
+          <li><a href="ourphilosopy.html">OUR PHILOSOPY</a></li>
+          <li><a href="fag.html">fAG</a></li>
+          <li><a href="contact.html"> CONTACT</a></li>
+          <li><a href="myaccount.html">MY ACCOUNT</a></li>
+          <li><a href="blog.htm">BLOG</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="imgcontain1">
+   <div class="w3-display-left w3-padding-xlarge" >
+    <h1 class="w3-text-white" style="color:#fff; padding-top:80px;"> MY ACCOUNT </h1>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+ <div  class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-6 col-sm-offset-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-11 col-xs-offset-1">
+  <h2 class="text-center"> Login here </h2>  
+  <div class="panel panel-default">
+   <div class="panel-body">
+    <input  class="form-control" type="text" name="" placeholder="Username" style="margin-bottom:10px;">
+    <input    class="form-control" type="text" name="" placeholder="Password">
+  </div>
+  <div class="panel-footer">
+    <div  class=" pull-right" style="border-radius:0px;">
+     <button type="button" class="btn btn-warning">Login</button>
+     </div>
+   <div class="checkbox">
+    <input type="checkbox" style="margin-left:-14px;">Remember me
+  </div>
+  </div>
+</div>
+<span> New to site? <a href="#" style="color:#FF8000"> <u> Create Account</u></a> </span>
+</div>
+</div>
+
+<br>
+<br>
+ <div class="row">
+        <div class="col-lg-8 col-md-offset-2">
+            <div class="boxed-grey">
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                    </div>
+                    
+                    <div class="text-center"><button type="submit" class="btn btn-skin">Send Message</button></div>
+                </form>
+            </div>
+      
+      <div class="widget-contact row">
+         <div class="col-lg-6">
+        <address>
+          <strong>Ninestars Ltd.</strong><br>
+          Big Villa 334 Awesome, Beautiful Suite 1200<br>
+          San Francisco, CA 94107<br>
+          <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
+        </div>
+        
+        <div class="col-lg-6">
+        <address>
+          <strong>Email</strong><br>
+          <a href="mailto:#">niajbokati@gmail.com</a><br />
+           <a href="mailto:#">leebrett@gmail.com</a>
+        </address>  
+      
+        </div>
+      </div>  
+        </div>
+
+    </div>  
+      <script>
+
+      $("#hide").click(function(){
+          $("p").hide();
+      });
+
+      $("#show").click(function(){
+          $("p").show();
+      });
+
+      </script>
+
+
+</body>
+</html>
+
+
+
+
